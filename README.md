@@ -1,8 +1,9 @@
 # WebApplicationApi
 
-https://www.youtube.com/watch?v=oUq_PuOWbA0
-
 Uma API RESTful desenvolvida em ASP.NET Core para gerenciamento de pedidos, produtos, clientes e status. Esta API permite criar, listar, editar e excluir pedidos, com funcionalidade para associar produtos a pedidos e clientes.
+
+Vídeo da Documentação
+https://www.youtube.com/watch?v=oUq_PuOWbA0
 
 ## Índice
 - [Tecnologias](#tecnologias)
