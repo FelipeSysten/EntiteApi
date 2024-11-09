@@ -1,0 +1,524 @@
+[
+  {
+    "ContainingType": "WebApplicationApi.Controllers.ClienteController",
+    "Method": "BuscarClientePorId",
+    "RelativePath": "api/Cliente/BuscarClientePorId/{idCliente}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCliente",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[WebApplicationApi.Models.ClienteModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.ClienteController",
+    "Method": "BuscarClientePorIdPedido",
+    "RelativePath": "api/Cliente/BuscarClientePorIdPedido/{idPedido}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPedido",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[WebApplicationApi.Models.ClienteModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.ClienteController",
+    "Method": "CriarCliente",
+    "RelativePath": "api/Cliente/CriarCliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarClienteDto",
+        "Type": "WebApplicationApi.Dto.CriarClienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.ClienteModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.ClienteController",
+    "Method": "EditarCliente",
+    "RelativePath": "api/Cliente/EditarCliente",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarClienteDto",
+        "Type": "WebApplicationApi.Dto.EditarClienteDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.ClienteModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.ClienteController",
+    "Method": "ExcluirCliente",
+    "RelativePath": "api/Cliente/ExcluirCliente",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idCliente",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.ClienteModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.ClienteController",
+    "Method": "ListarClientes",
+    "RelativePath": "api/Cliente/ListaClientes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.ClienteModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.PedidoController",
+    "Method": "BuscarPedidoPorId",
+    "RelativePath": "api/Pedido/BuscarPedidoPorId/{idPedido}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPedido",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[WebApplicationApi.Models.PedidoModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.PedidoController",
+    "Method": "CriarPedido",
+    "RelativePath": "api/Pedido/CriarPedido",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarPedidoDto",
+        "Type": "WebApplicationApi.Dto.CriarPedidoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.PedidoModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.PedidoController",
+    "Method": "EditarPedido",
+    "RelativePath": "api/Pedido/EditarPedido",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarPedidoDto",
+        "Type": "WebApplicationApi.Dto.EditarPedidoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.PedidoModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.PedidoController",
+    "Method": "ExcluirPedido",
+    "RelativePath": "api/Pedido/ExcluirPedido/{idPedido}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idPedido",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.PedidoModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.PedidoController",
+    "Method": "ListarPedidos",
+    "RelativePath": "api/Pedido/ListarPedidos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.PedidoModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.ProdutoController",
+    "Method": "BuscarProdutoPorId",
+    "RelativePath": "api/Produto/BuscarProdutoPorId/{idProduto}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProduto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[WebApplicationApi.Models.ProdutoModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.ProdutoController",
+    "Method": "CriarProduto",
+    "RelativePath": "api/Produto/CriarProduto",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarProdutoDto",
+        "Type": "WebApplicationApi.Dto.CriarProdutoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.ProdutoModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.ProdutoController",
+    "Method": "EditarProduto",
+    "RelativePath": "api/Produto/EditarProduto",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarProdutoDto",
+        "Type": "WebApplicationApi.Dto.EditarProdutoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.ProdutoModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.ProdutoController",
+    "Method": "ExcluirProduto",
+    "RelativePath": "api/Produto/ExcluirProduto/{idProduto}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idProduto",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.ProdutoModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.ProdutoController",
+    "Method": "ListarProdutos",
+    "RelativePath": "api/Produto/ListarProdutos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.ProdutoModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.StatusController",
+    "Method": "BuscarStatusPorId",
+    "RelativePath": "api/Status/BuscarStatusPorId/{idStatus}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idStatus",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[WebApplicationApi.Models.StatusModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.StatusController",
+    "Method": "CriarStatus",
+    "RelativePath": "api/Status/CriarStatus",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "criarStatusDto",
+        "Type": "WebApplicationApi.Dto.CriarStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.StatusModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.StatusController",
+    "Method": "EditarStatus",
+    "RelativePath": "api/Status/EditarStatus",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "editarStatusDto",
+        "Type": "WebApplicationApi.Dto.EditarStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.StatusModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.StatusController",
+    "Method": "ExcluirStatus",
+    "RelativePath": "api/Status/ExcluirStatus/{idStatus}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idStatus",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.StatusModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebApplicationApi.Controllers.StatusController",
+    "Method": "ListarStatus",
+    "RelativePath": "api/Status/ListarStatus",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "WebApplicationApi.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[WebApplicationApi.Models.StatusModel, WebApplicationApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
